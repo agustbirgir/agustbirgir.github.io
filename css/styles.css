@@ -3,7 +3,8 @@
 body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
-    font: 400 1em/1.5 'Open Sans','sans-serif'y; /* samsett skipun: weight/height, size, family */
+    font-family: 'Montserrat', sans-serif; /* samsett skipun: weight/height, size, family */
+    font-size: 20px;
     background-color: blue;
 }
 h1 {
@@ -27,6 +28,10 @@ blockquote{
     margin-top: 4em;
 
 }
+.mig{
+    text-align: center;
+}
+
 .bgcolor{
     background: linear-gradient(to top,red,blue);
     padding: 1em;
@@ -54,6 +59,10 @@ blockquote{
 }
 .topnav li, .footnav li{
     list-style-type: none;
+}
+.topnav a{
+    text-align: right;
+    display: block;
 }
 
 .footnav li{
@@ -107,7 +116,10 @@ blockquote{
 }.marginb{
     margin-bottom: -1em;
 }
-
+/*div.a {
+    text-align: left;
+  }
+*/
 /* grid */
 .col-2 {
     display: grid;
@@ -124,4 +136,40 @@ blockquote{
 }
 .gap-4 {
     grid-gap: 2em
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.flright {
+    float: right;
+}
+.flexend{
+    display: flex;
+    align-items: flex-end;
+}
+.kort{
+    width:100%;
+    height: 10em;
+    margin-top: 2em;
+}
+.gap{
+    grid-gap: 20px 20px;
+}
+.image {
+    margin-top: 25px;
+    width: 314px;
+    height:15em ;
+    
+}
+.music {
+    margin-top: 2em;
+}
+.tenglar{
+    margin-bottom: 25px;
+}
+.img{
+    
+    border-radius: 50%;
 }
