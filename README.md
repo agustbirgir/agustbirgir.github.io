@@ -11,6 +11,6 @@
    * [verkefni 32](verkefni_3/verk32/)
    * [verkefni 33](verkefni_3/verk33/)
    * [verkfeni 34](verkefni_3/verk34/)
-   
+4. [verkefni_4](verkefni_4)
     
 
